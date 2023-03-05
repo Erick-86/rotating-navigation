@@ -15,7 +15,11 @@ body {
   transform-origin: top left;
   transition: transform 0.5s linear;
   padding: 50px;
-  max-width: 1000px;
+}
+
+.content-container .content{
+    max-width: 1000px;
+    margin: auto;
 }
 
 .content-container.show-nav {
@@ -35,6 +39,10 @@ body {
     border-radius: 50%;
     position: relative;
     transition: transform 0.5s linear;
+}
+
+.content-container.show-nav .circle{
+    transform: rotate(-70deg);
 }
 
 .circle button{
